@@ -37,6 +37,10 @@ header a {
     color: #3a0101; 
 }
 
+.project-tile a:focus {
+    background-color: rgb(199, 237, 199);
+}
+
 #section-main a:visited {
     color: #3a0101;
 }
@@ -126,6 +130,20 @@ footer a:visited {
     color:#eadad4;
 }
 
+
+footer a:hover {
+    color: #012b01;
+    background-color: #eadad4;
+    border-radius: 2rem;
+    font-weight: 400;
+}
+
+footer a:focus {
+    background-color: #9fe09f;
+    border-radius: 2rem;
+    color: #012b01;
+}
+
 header a:hover {
     color: #012b01;
     background-color: #eadad4;
@@ -133,14 +151,11 @@ header a:hover {
     font-weight: 400;
 }
 
-p {
-    font-weight: 400;
+header a:focus {
+    background-color: #9fe09f;
 }
 
-footer a:hover {
-    color: #012b01;
-    background-color: #eadad4;
-    border-radius: 2rem;
+p {
     font-weight: 400;
 }
 
