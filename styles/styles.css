@@ -1,12 +1,166 @@
 body {
     font-family: Poppins, Arial, sans-serif;
-    line-height: 1.5;
-    font-size: ;
-    color: ;
-    background-color: ;
+    line-height: 1.8;
+    color: #012b01;
+    background-color: #eadad4;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 3.5rem;
+    background-color: #012b01;
+    color: #eadad4;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+#section-main {
     display: block;
+    padding: 10% 20%;
+    text-align: center;
+
+}
+
+#section-main a {
+    color: #3a0101; 
+}
+
+#section-main a:visited {
+    color: #3a0101;
 }
 
 h1, h2, h3 {
-    font-family: "Yuji Syuku";
+    font-family: "Crete Round", Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    color:#012b01;
+   
+}
+
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h2, h3 {
+    color: #346634;
+}
+.portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0;
+    justify-content: center;
+}
+
+.placeholder {
+  
+    border: .3rem solid #346634;
+    border-radius: 1.8rem;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+   max-width: 20rem;
+   max-height: 30rem;
+   padding-top: 1rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    padding: 0rem 2rem;
+    margin-top: 0;
+}
+
+header a:visited {
+    color:#eadad4;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.project-name {
+    margin:0;
+}
+article p {
+    margin: 0;
+}
+
+.email {
+    max-width: 10rem;
+    max-height 10rem;
+}
+
+.github {
+    max-width: 10rem;
+    max-height 10rem;
+}
+.instagram {
+    max-width: 10rem;
+    max-height 10rem;
+}
+
+footer a:visited {
+    color:#eadad4;
+}
+
+header a:hover {
+    color: #012b01;
+    background-color: #eadad4;
+    border-radius: 2rem;
+    font-weight: 400;
+}
+
+p {
+    font-weight: 400;
+}
+
+footer a:hover {
+    color: #012b01;
+    background-color: #eadad4;
+    border-radius: 2rem;
+    font-weight: 400;
+}
+
+footer {
+    background-color: #012b01;
+    color: #eadad4;
+    font-weight: 300;
+    font-size: 1.5rem;
+    display: flex;
+    padding-bottom: 0;
+    padding-top: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+
+footer p {
+    font-weight: 300;
+    font-size: 0.8rem;
 }
