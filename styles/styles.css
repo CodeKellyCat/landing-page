@@ -44,8 +44,7 @@ h1, h2, h3 {
 h1 {
     font-size: 4rem;
     text-align: center;
-    color:#012b01;
-   
+    color:#012b01;   
 }
 
 
@@ -69,7 +68,6 @@ h2, h3 {
 }
 
 .placeholder {
-  
     border: .3rem solid #346634;
     border-radius: 1.8rem;
     display: block;
@@ -78,11 +76,11 @@ h2, h3 {
 }
 
 img {
-   max-width: 20rem;
-   max-height: 30rem;
-   padding-top: 1rem;
-   padding-left: 1rem;
-   padding-right: 1rem;
+    max-width: 20rem;
+    max-height: 30rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 ul {
@@ -114,16 +112,13 @@ article p {
 
 .email {
     max-width: 10rem;
-    max-height 10rem;
 }
 
 .github {
     max-width: 10rem;
-    max-height 10rem;
 }
 .instagram {
-    max-width: 10rem;
-    max-height 10rem;
+    max-width: 10rem;   
 }
 
 footer a:visited {
